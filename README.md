@@ -7,7 +7,7 @@ Julia McAnallen<br>
 Genevieve Peaslee<br>
 Zoe Winkworth<br>
 
-MELDA is a summarization system based on MEAD with content selection boosted by LDA topic modeling. The final version of MELDA incorporates information ordering and content realization modules. The final report is in `CGJZ/doc/D4.pdf` and its presentation slides is `CGJZ/doc/D4_slides.pdf`.
+MELDA is a summarization system based on MEAD with content selection boosted by LDA topic modeling. The final version of MELDA incorporates information ordering and content realization modules. The final report is `CGJZ/doc/D4.pdf` and its presentation slides is `CGJZ/doc/D4_slides.pdf`.
 
 MELDA can be run by executing `run_all.sh` from inside CGJZ/src, either directly or by submitting `D4.cmd` to Condor. 
 It is run with default parameters: 3 topics, 5 sentences per topic, MEAD score weights: 1, 1, 1; Brown Corpus (from NLTK) for IDF score; max threshhold value; and information ordering led by top MEAD score.
